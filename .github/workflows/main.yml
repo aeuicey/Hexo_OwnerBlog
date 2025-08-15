@@ -43,6 +43,7 @@ jobs:
           npm install hexo-wordcount --save
           npm i hexo-filter-nofollow --save
           npm install hexo-generator-feed --save
+          npm install hexo-server hexo-browsersync hexo-renderer-pug --save
           echo "install hexo successful"
       - name: Build Blog # 编译创建静态博客文件
         run: |
