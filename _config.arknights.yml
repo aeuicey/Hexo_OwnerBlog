@@ -94,7 +94,7 @@ bgm:
   enable: true
   autoplay: true
   loop: true
-  src: /audio/bgm.mp3
+  src: https://gcore.jsdelivr.net/gh/aeuicey/Picwent/bgm.mp3
 
 # Vercount
 # 详见 https://vercount.one/
