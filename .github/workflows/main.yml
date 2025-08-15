@@ -1,5 +1,4 @@
 
-复制成功
 name: Blog CI/CD # 脚本 workflow 名称
 
 on:
@@ -28,11 +27,11 @@ jobs:
             ${{ runner.os }}-build-${{ env.cache-name }}-
             ${{ runner.os }}-build-
             ${{ runner.os }}-
-      - 名字: Init Node.js # 安装源代码所需插件
+      - name: Init Node.js # 安装源代码所需插件
         run: |
           npm install
           echo "init node successful"
-      - 名字: Install Hexo-cli And component # 安装 Hexo
+      - name: Install Hexo-cli And component # 安装 Hexo
         run: |
           npm install -g hexo-cli --save
           npm install hexo-generator-sitemap --save
